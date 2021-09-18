@@ -1,64 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Plataforma Autodidacta|</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>UNABdemy</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://codescandy.com/geeks-rtl/assets/css/theme.min.css">-->
+
 </head>
+
 <body>
-    <div class="contenedor-form">
-        <div class="toggle">
-            <span> Crear Cuenta</span>
-        </div>
-        
-        <div class="formulario">
-            <font face="Comic Sans MS,Arial,Verdana">Bienvenido a nuestra comunidad</font>
-            <h1>UNAB GO4 C-3 LAMD3</h1>
-            <h2>Iniciar Sesión</h2>
-            <form action="#">
-                <input type="text" placeholder="Usuario" required>
-                <input type="password" placeholder="Contraseña" required>
-                <input type="submit" value="Iniciar Sesión">
-            </form>
-        </div>
-        
-        <div class="formulario">
-            <font face="Comic Sans MS,Arial,Verdana">Bienvenido a nuestra comunidad</font>
-            <h1>UNAB GO4 C-3 LAMD3</h1>
-            <h2>Ingresa datos</h2>
-            <form action="#">
-                <input type="text" placeholder="Nombres" required>
-                
-                <input type="text" placeholder="Apellidos" required>
-                
-                <input type="text" placeholder="ID" required>
+    <br>
+    <div class="barra-menu">
+        <font color="black" style="font-size: xx-large" style="font-weight: lighter">
+            <img src="../img/UNABdemy.jpeg" width="270" height="90" alt>
+        </font>
+        <ul class="nav justify-content-end" style="background-color: #ffa200; ">
+            <br>
+            <br>
+            <br>
+            <li class="nav-item ">
+                <a class="nav-link " href="./index.html" font-weight="bold ">
+                    <img src="../img/menu.png" alt=" " width="30 " height="24 ">
+                    <br>
+                    <font color="white " style="font-size: medium " style="font-weight:bold ">Inicio</font>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="./registro.html" font-weight="bold ">
+                    <img src="../img/registro.png" alt=" " width="30 " height="24 ">
+                    <br>
+                    <font color="white " style="font-size: medium " style="font-weight:bold "> Registro</font>
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " href="./login.html" font-weight="bold ">
+                    <img src="../img/ingresar.png" alt=" " width="24 " height="24 ">
+                    <br>
+                    <font color="white " style="font-size: medium " style="font-weight:bold ">Acceso</font>
+                </a>
+            </li>
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </div>
+            </nav>
+        </ul>
+        <br>
+    </div>
 
-                <input type="text" placeholder="Pais" required>
-                
-                <input type="text" placeholder="Estado/Departamento" required>
-                
-                <input type="text" placeholder="Ciudad" required>
-                
-                <input type="text" placeholder="Direccion" required>
-
-                <input type="text" placeholder="Usuario" required>
-                
-                <input type="password" placeholder="Contraseña" required>
-                
-                <input type="email" placeholder="Correo Electronico" required>
-                
-                <input type="text" placeholder="Teléfono" required>
-                
-                
-                <input type="submit" value="Registrarse">
-            </form>
-        </div>
-        
-        <div class="reset-password">
-            <a href="#">Olvide mi Contraseña?</a>
+    <!--          COMMING SOON              -->
+    <!--    TEXTO LLAMATIVO PROVISIONAL QUE AVISA DEL "SITIO EN CONSTRUCCION     "-->
+    <div class="card bg-gradient text-black-50" id="card-provisional">
+        <img src="../img/caja3.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h5 class="card-title">Mensaje Provisional... !</h5>
+            <p class="card-text">Estamos en Construcción</p>
+            <p class="card-text">Te invitamos a dar "click" y conocer</p>
+            <p class="card-text">Nuestros formularios </p>
+            <p class="card-text">de Registro & Acceso</p>
+            <p class=""></p>
         </div>
     </div>
-    <script src="js/jquery-3.1.1.min.js"></script>    
-    <script src="js/main.js"></script>
+
+    <div class="card-group">
+        <div class="card">
+            <img src="../img/course-css.jpg" class="card-img-top" alt="50%">
+            <div class="card-body">
+                <h1 class="card-title">Curso UNO</h1>
+                <p class="card-text">Aqui va la descripcion del curso uno.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/course-graphql.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso DOS</h1>
+                <p class="card-text">Aqui va la descripcion del curso dos.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/course-javascript.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso TRES</h1>
+                <p class="card-text">Aqui va la descripcion del curso tres.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="../img/course-angular.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso CUATRO</h1>
+                <p class="card-text">Aqui va la descripcion del curso cuatro.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+
+    </div>
+    <br>
+    <div class="card-group">
+        <div class="card">
+            <img src="../img/course-gatsby.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso CINCO</h1>
+                <p class="card-text">Aqui va la descripcion del curso cinco.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/course-python.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso SEIS</h1>
+                <p class="card-text">Aqui va la descripcion del curso seis.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/course-react.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso SIETE</h1>
+                <p class="card-text">Aqui va la descripcion del curso siete.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../img/course-wordpress.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Curso OCHO</h1>
+                <p class="card-text">Aqui va la descripcion del curso ocho.</p>
+                <p class="card-text"><small class="text-muted">Mas informacion...</small></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTENIDO DE PRUEBA-->
+
+
+    <!-- CONTENIDO DE PRUEBA-->
+
+
+    <scripsrc="https: //cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js " integrity="
+        sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ " crossorigin=" anonymous ">
+        </script>
 </body>
-</html>
